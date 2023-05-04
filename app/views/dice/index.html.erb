@@ -6,8 +6,9 @@ die2 = rand(1..6)
 total = die1 + die2
 %>
 
-<p>The first dice is <%= die1%></p>
+<img src="images/dice/<%=die1%>.svg" alt="">
+<img src="images/dice/<%=die2%>.svg" alt="">
 
-<p>The second dice is <%= die2%></p>
+<p>You have scored: <%=total%><p>
 
-<p>The total is <%=total%><p>
+<a href="/dice"> Roll again <a>
